@@ -11,34 +11,38 @@
 @media screen and (min-width:768px) and (max-width:992px) {
     #container {
 
-        max-width: 800px;
+        max-width: 720px;
         min-width: 500px;
     }
 
 
     #container > form > div > input  {
-        width: 530px;   
+        width: 630px;   
     }
 
     select#iemprego {
-        width: 530px;
+        width: 630px;
     }
 
     select#ifavorita {
-        width: 530px;
+        width: 630px;
     }
     #en > input#enviar {
-        width: 530px;  
+        width: 630px;  
     }
     textarea {
-        width: 530px;
+        width: 630px;
+    }
+
+    #paragrafo {
+        width: 95%;
     }
 
 
 }
 
 
-@media screen and (min-width:992px) and (max-width:1900px) {
+@media screen and (min-width:992px) {
     #container {
 
         max-width: 720px;
@@ -70,7 +74,7 @@
     }
 
     #paragrafo {
-        width: 630px;   
+        width: 100%;   
     }
 
 }

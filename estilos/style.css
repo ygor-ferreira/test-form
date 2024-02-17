@@ -10,7 +10,7 @@
 }
 
 body, html {
-    background-color: #6D6EA9 ;
+    background-image: linear-gradient(to top , #4A8FE7,#59D2FE, #153243 90%) ;
 }
 
 header > h1 {
@@ -33,17 +33,26 @@ header > p {
     display: flex;
     justify-content: center;
     
-    background-color: #2a29499f ;
+    background-image: linear-gradient(to bottom ,#4f3a8d6c, rgba(156, 59, 156, 0.384)) ;
     
     padding-top: 20px;
+    padding-bottom: 20px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     color: white;
-    border-radius: 5px;
+    border-radius: 30px;
+    transition: 1s;
+
+}
+
+label {
+
 }
 
 #paragrafo {
     width: 380px;
+    margin-bottom: 10px;
   
     
 }
@@ -55,22 +64,45 @@ header > p {
 
 
 #container > form > div > input  {
-    width: 380px;
+    width: 100%;
     height: 40px;
     border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 15px;
 }
 
 select#iemprego {
-    width: 380px;
+    width: 100%;
     height: 40px;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 6px;
+    margin-bottom: 15px;
 
 }
 
+p.reco {
+    margin-bottom: 6px;
+}
+
+p.fav {
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+p.coment {
+    margin-top: 20px;
+}
+
+select {
+    margin-bottom: 15px;
+}
+
+
+  
+
 
 select#ifavorita {
-    width: 380px;
+    width: 100%;
     height: 40px;
     border-radius: 5px;
     margin-top: 6px;
@@ -78,7 +110,7 @@ select#ifavorita {
 
 
 #en > input#enviar {
-    width: 380px;
+    width: 100%;
     height: 40px;
     color: white;
     background-color: #37AF65 ;
@@ -91,12 +123,14 @@ select#ifavorita {
 }
 
 input.check {
-    margin-top: 5px;
+    margin-top: 10px;
+    height: 18px;
+    width: 18px;
 }
 
 textarea {
     margin-top: 10px;
-    width: 380px;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -108,14 +142,18 @@ textarea:hover {
 
 
 input.ra {
-    margin-top: 6px;
+    margin-top: 10px;
     margin-right: 0.5rem;
+    height: 16px;
+    width: 16px;
     
 }
 
 div {
     font-size: 1.2rem;
 }
+
+
 
 
 
