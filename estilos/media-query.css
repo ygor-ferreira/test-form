@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    #container {
+
+        max-width: 800px;
+        min-width: 500px;
+    }
+
+
+    #container > form > div > input  {
+        width: 530px;   
+    }
+
+    select#iemprego {
+        width: 530px;
+    }
+
+    select#ifavorita {
+        width: 530px;
+    }
+    #en > input#enviar {
+        width: 530px;  
+    }
+    textarea {
+        width: 530px;
+    }
+
+
+}
+
+
+@media screen and (min-width:992px) and (max-width:1900px) {
+    #container {
+
+        max-width: 720px;
+        min-width: 500px;
+
+    }
+
+
+    #container > form > div > input  {
+        width: 630px;  
+    }
+
+    select#iemprego {
+        width: 630px;
+    }
+
+    select#ifavorita {
+        width: 630px;
+      
+    }
+    #en > input#enviar {
+        width: 630px;
+        
+    }
+    textarea {
+        
+        width: 630px;
+        
+    }
+
+    #paragrafo {
+        width: 630px;   
+    }
+
+}

@@ -1,0 +1,124 @@
+@charset "UTF-8" ;
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #6D6EA9 ;
+}
+
+header > h1 {
+
+    text-align: center;
+    color: white;
+
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+
+#container {
+    
+    min-width: 300px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    
+    background-color: #2a29499f ;
+    
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+#paragrafo {
+    width: 380px;
+  
+    
+}
+
+
+#container > form > div {
+    padding-top: 10px;
+}
+
+
+#container > form > div > input  {
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+select#iemprego {
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+
+select#ifavorita {
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+
+#en > input#enviar {
+    width: 380px;
+    height: 40px;
+    color: white;
+    background-color: #37AF65 ;
+}
+
+#en > input#enviar:hover {
+
+    cursor: pointer;
+
+}
+
+input.check {
+    margin-top: 5px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 380px;
+    border-radius: 5px;
+}
+
+textarea:hover {
+    border-color: rgb(0, 102, 255);
+}
+
+
+
+
+input.ra {
+    margin-top: 6px;
+    margin-right: 0.5rem;
+    
+}
+
+div {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+

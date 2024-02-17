@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+        <p>Obrigado por acessar o formulario</p>
+    </header>
+    <main>
+        <div id="container">
+            <form action="#" method="post" autocomplete="on">
+
+                <div> <label for="inome">Nome <br></label>
+                <input type="text" name="nome" id="inome" autocomplete="name" required placeholder="Seu nome" class="la"></div>
+
+                <div> <label for="iemail">Email <br></label>
+                    <input type="text" name="email" id="iemail" autocomplete="email" required placeholder="Seu email" class="la"></div>
+
+                <div> <label for="iidade">Idade <br></label>
+                    <input type="number" name="idade" id="iidade"autocomplete="idade" required minlength="1" maxlength="2" placeholder="Sua idade" class="la"></div>
+
+
+                    <div><label for="iemprego">Emprego atual <br></label>
+                        <select name="emprego" id="iemprego">
+                          <option value="" selected> Selecione seu emprego atual</option>
+                          <option >Estudante</option>
+                          <option >Empregado</option>
+                          <option >Prefiro não dizer</option>
+                          <option >Outros</option>
+                        </select>
+                        </div>
+
+                <div>
+                    <label for="irecomendar">Você recomendaria este site para alguem?<br>
+                    <input type="radio" name="recomendar" id="irecomendar" checked class="ra" >Definitivamente</label>
+
+                    <label for="italvez"> <br>
+                    <input type="radio" name="recomendar" id="italvez" class="ra" >talvez</label>
+
+                    <label for="inaotenho"><br>
+                    <input type="radio" name="recomendar" id="inaotenho" class="ra" >Não tenho certeza</label>
+                </div>
+
+                <div>
+                    <label for="ifavorita"> Qual sua caracteristica favorita do site <br>
+                        <select name="favorita" id="ifavorita">
+                            <option value="" selected> Selecione sua opção</option>
+                            <option>Desafios</option>
+                            <option>Projetos</option>
+                            <option>Comunidade</option>
+                            <option>Open Source</option>
+                            
+                        </select>
+                    </label>
+                </div>
+
+
+
+
+
+                <div>
+                    <p id="paragrafo">O que você gostaria que o site melhorasse? (marque todos  que se aplicam)</p>
+                    <label for="ifront">
+                        <input type="checkbox" name="front-end" id="ifront" class="chec"> Front-end Projects <br>
+                    </label>
+
+                    <label for="iback">
+                        <input type="checkbox" name="back-end" id="iback" class="check"> Back-end Projects <br>
+                    </label>
+
+                    <label for="idata">
+                        <input type="checkbox" name="data" id="idata" class="check">  Data Visualization <br>
+                    </label>
+
+                    <label for="ichall">
+                        <input type="checkbox" name="chall" id="ichall" class="check"> Challenges <br>
+                    </label>
+
+
+                    <label for="iopen">
+                        <input type="checkbox" name="open" id="iopen" class="check"> Open Source Community <br>
+                    </label>
+                    
+                    <label for="igitter">
+                        <input type="checkbox" name="gitter" id="igitter" class="check"> Gitter help rooms <br>
+                    </label>
+
+                    <label for="ivideo">
+                        <input type="checkbox" name="video" id="ivideo" class="check"> Challenges <br>
+                    </label>
+
+                    <label for="icity">
+                        <input type="checkbox" name="city" id="icity" class="check"> CIty Meetups <br>
+                    </label>
+
+                    <label for="iwiki">
+                        <input type="checkbox" name="wiki" id="iwiki" class="check"> Wiki <br>
+                    </label>
+
+                    <label for="iforum">
+                        <input type="checkbox" name="forum" id="iforum" class="check"> Forum <br>
+                    </label>
+
+                    <label for="iadd">
+                        <input type="checkbox" name="add" id="iadd" class="check"> Additional Courses <br>
+                    </label>
+
+                    
+                </div>
+
+
+
+                <div>
+                    <label for="icoment"> Comentarios ou Sugestoes <br>
+                        <textarea name="coment" id="icoment" cols="40" rows="10" placeholder="Coloque seu comentario aqui..."></textarea>
+                    </label>
+                </div>
+
+
+                <div id="en">
+                    <input type="submit" value="Submit" id="enviar">
+                </div>
+                        
+
+
+
+            
+                          
+   
+                    
+
+                    
+
+
+
+
+
+
+
+                        
+                  
+                
+              
+
+
+
+
+
+
+
+                    
+                    
+    
+
+
+
+
+            </form>
+
+        </div>
+    </main>
+    
+</body>
+</html>
