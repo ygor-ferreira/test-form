@@ -17,6 +17,8 @@ header > h1 {
 
     text-align: center;
     color: white;
+    margin-top: 20px;
+
 
 }
 
@@ -42,7 +44,7 @@ header > p {
     margin-bottom: 20px;
     color: white;
     border-radius: 30px;
-    transition: 1s;
+    transition: .5s ease-in-out;
 
 }
 
@@ -69,6 +71,8 @@ label {
     border-radius: 5px;
     margin-top: 6px;
     margin-bottom: 15px;
+    border: none;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.404);
 }
 
 select#iemprego {
@@ -77,6 +81,7 @@ select#iemprego {
     border-radius: 5px;
     margin-top: 6px;
     margin-bottom: 15px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.404);
 
 }
 
@@ -106,6 +111,7 @@ select#ifavorita {
     height: 40px;
     border-radius: 5px;
     margin-top: 6px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.404);
 }
 
 
@@ -114,11 +120,16 @@ select#ifavorita {
     height: 40px;
     color: white;
     background-color: #37AF65 ;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.404);
 }
 
 #en > input#enviar:hover {
 
     cursor: pointer;
+    background-color: rgb(7, 156, 7);
+    transition: background-color .5s ease-in;
+    
+    
 
 }
 
@@ -152,8 +163,6 @@ input.ra {
 div {
     font-size: 1.2rem;
 }
-
-
 
 
 
